@@ -1,0 +1,18 @@
+{
+  "name": "NexLoop AI",
+  "short_name": "NexLoop",
+  "description": "AI-Powered Industrial Symbiosis Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B4F3F",
+  "theme_color": "#0B4F3F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
