@@ -52,8 +52,8 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
             { icon: Mail, title: 'Email', value: 'hello@nexloop.ai', desc: 'We reply within 24 hours' },
-            { icon: Phone, title: 'Phone', value: '+91 80 4567 8901', desc: 'Mon-Fri, 9am-6pm IST' },
-            { icon: MapPin, title: 'Office', value: 'Bengaluru, India', desc: 'Indiranagar, 560038' },
+            { icon: Phone, title: 'Phone', value: '+91 9342524057', desc: 'Mon-Fri, 9am-6pm IST' },
+            { icon: MapPin, title: 'Office', value: 'Chennai, India', desc: 'Indiranagar, 560038' },
           ].map((c, i) => (
             <motion.div key={c.title} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1 }}>
               <Card className="glass border-border/40 card-hover">
