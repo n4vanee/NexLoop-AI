@@ -15,10 +15,13 @@ const values = [
 ];
 
 const milestones = [
-  { year: '2024', title: 'Platform Conception', desc: 'Founded at the Clean & Green Technology Hackathon with a vision to AI-enable industrial symbiosis.' },
-  { year: '2025', title: 'AI Engine Launch', desc: 'Deployed waste-to-resource matching engine with CO2 impact prediction and Circularity Scores.' },
-  { year: '2025', title: '42 Partner Organizations', desc: 'Onboarded industries, municipalities, and citizen groups across 8 Indian cities.' },
-  { year: '2026', title: '546T Waste Diverted', desc: 'Crossed half a kiloton of waste diverted from landfill, saving 198T of CO2 emissions.' },
+  { year: '2025', title: 'The Idea', desc: 'Born from a simple observation: industries throw away resources other industries are actively searching for.' },
+  { year: '2026', title: 'Prototype Built', desc: 'Designed and shipped a working AI matching engine — surplus waste listings, price recommendations, and CO2 impact predictions.' },
+  { year: '2026', title: 'Circularity Scoring & ESG Reports', desc: 'Added a 0–100 Circularity Score per organization and AI-generated 
+sustainability reports, turning raw match data into something businesses 
+could actually act on.' },
+  { year: '2026', title: 'Demo-Ready at Scale', desc: 'Simulated a live marketplace with realistic seed data — waste listings, 
+matches, and impact metrics' },
 ];
 
 export default function AboutPage() {
