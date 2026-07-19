@@ -39,13 +39,13 @@ export function Footer() {
               <li><Link href="/about" className="hover:text-primary transition-colors">About</Link></li>
               <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
               <li className="flex items-center gap-1.5"><Mail className="h-3.5 w-3.5" /> hello@nexloop.ai</li>
-              <li className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5" /> Bengaluru, India</li>
+              <li className="flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5" /> Chennai, India</li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} NexLoop AI. Built for the Clean & Green Technology Hackathon.
+            © {new Date().getFullYear()} NexLoop AI. Built for the Clean & Green Technology .
           </p>
           <p className="text-xs text-muted-foreground">
             Powering the circular economy with AI.
